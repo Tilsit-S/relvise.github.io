@@ -142,7 +142,7 @@ body {
 .header-block__sub-title {
     line-height: 20px;
     color: #737373;
-    /*padding: 0 269px;*/
+    padding: 0 20px;
 }
 @media (max-width: 992px) {
     .header-block__title {
