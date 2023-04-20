@@ -520,13 +520,19 @@ body {
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
+
+    @media(max-width: 992px) {
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    @media(max-width: 767px) {
+        font-size: 24px;
+        text-align: center;
+    }
 }
 .whoweare__title:not(:last-child) {
     margin: 0px 0px 50px 0px;
-
-    @media(max-width: 767px) {
-        text-align: center;
-    }
 }
 .whoweare__text {
     color: #737373;
@@ -586,9 +592,6 @@ body {
     .whoweare__body {
         flex-direction: column-reverse;
         align-items: stretch;
-    }
-    .whoweare__title {
-        font-size: 24px;
     }
     .whoweare__content {
         padding: 0 5px;
